@@ -11,7 +11,7 @@ import Experience from './components/Experience.vue'
 	</header>
 	<Hero/>
 	<div class="mx-12">
-		<Macbook>
+		<Macbook url>
 			<div class="container ">
 				<pre><code>
 					<span class="text-[#7000FF]">.SobreMi</span> {
@@ -41,7 +41,40 @@ import Experience from './components/Experience.vue'
 		</div>
 		<h3 class="text-lg font-bold py-2">Ultimos Trabajos</h3>
 		<Experience>
-
+			<template #imagen>
+				<img src="./assets/gestor.png" alt="">
+			</template>
+			<template #header>Gestor de Examenes y Cursos</template>
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit veniam temporibus consequatur. Eaque.
+			<template #footer>
+				<a href="">
+					Ver Proyecto -------->
+				</a>
+			</template>
+		</Experience>
+		<Experience inverso>
+			<template #imagen>
+				<img src="./assets/tih.png" alt="">
+			</template>
+			<template #header>Time on Tools</template>
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit veniam temporibus consequatur. Eaque.
+			<template #footer>
+				<a href="">
+					Ver Proyecto -------->
+				</a>
+			</template>
+		</Experience>
+		<Experience>
+			<template #imagen>
+				<img src="./assets/agenda.png" alt="">
+			</template>
+			<template #header>Time on Tools</template>
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit veniam temporibus consequatur. Eaque.
+			<template #footer>
+				<a href="">
+					Ver Proyecto -------->
+				</a>
+			</template>
 		</Experience>
 	</div>
 </template>

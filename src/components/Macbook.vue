@@ -6,7 +6,7 @@
                 <a href="#" class="nav-dot block w-4 h-4 rounded-full bg-[#FF5F56]"></a>
                 <a href="#" class="nav-dot block w-4 h-4 rounded-full bg-[#27C93F]"></a>
             </div>
-            <div class="bg-[#202226] rounded-md px-24">
+            <div v-if="props.url" class="bg-[#202226] rounded-md px-24">
                 <h5>Matias.Castillo.com</h5>
             </div>
             <div></div>
@@ -16,7 +16,9 @@
 </template>
 
 <script setup>
-
+const props = defineProps({
+    url: Boolean
+})
 </script>
 
 <style scoped>
