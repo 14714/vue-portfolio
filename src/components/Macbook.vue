@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#171A1B] rounded-md border-solid border-2 border-[#4A4A4A] w-full h-min pb-14">
+    <div class="bg-[#171A1B] rounded-md border-solid border-2 border-[#4A4A4A] w-full h-min md:h-72 pb-14 mb-5">
         <div class="flex justify-between p-3">
             <div class="flex space-x-3">
                 <a href="#" class="nav-dot block w-4 h-4 rounded-full bg-[#FFBD2E]"></a>
